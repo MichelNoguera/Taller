@@ -1,0 +1,79 @@
+body {
+    margin: 0;  /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+h1 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 5px;  /* Agrega un espacio interno alrededor del texto */
+    margin: 0; /* Elimina los márgenes alrededor del h1 */
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.img-container {
+    display: flex;
+    margin: 40px auto; /* Añade 20px de margen en todos los lados y centra la imagen horizontalmente */
+    max-width: 35%; /* Limita el ancho de la imagen al 50% del contenedor */
+    border: 1px solid black; /* Añadir un borde de 5px de ancho, sólido y de color negro */
+    padding: 20px 330px;
+    position: relative;
+}
+
+.img1 {
+    width: 120%;
+    height: 100%;
+}
+
+.img2 { 
+    max-width: 60%;
+    height: 90%;
+    margin: 51px 11px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: -280px;
+}
+.text-content {
+    flex: 1;
+    max-width: 65%;
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding: 20px; 
+    position: absolute;
+    left: 0; 
+    
+}
+
+button {
+    display: block;
+    margin-top: -30px;
+    margin-left: 605px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+    padding: 12px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row; 
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer h2 {
+    margin-left: 48%; 
+    margin-right: 48%; 
+}
